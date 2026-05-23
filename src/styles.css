@@ -30,7 +30,9 @@ h2 {
     font-size: 30px;
     font-family: "Comic Sans MS","Arial";
     background-color: aqua;
-
+    border:black;
+    border-style: solid;
+    border-radius: 45%;
 }
 
 #timer{
