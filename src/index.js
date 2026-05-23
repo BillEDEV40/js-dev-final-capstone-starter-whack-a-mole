@@ -100,11 +100,13 @@ return hole;
 */
 function gameOver() {
   // TODO: Write your code here
-  if (time <= 0){
-    return stopGame();
-  }else{
-    return showUp();
-  }
+   if (time > 0){
+     timeoutId = showUp()
+     return timeoutId
+    }else{
+     gameStopped = stopGame()
+     return gameStopped
+}
 }
 
 /**
@@ -149,7 +151,7 @@ function showAndHide(hole, delay){
 */
 function toggleVisibility(hole){
   // TODO: add hole.classList.toggle so that it adds or removes the 'show' class.
-  
+  hole.classList.toggle('show');
   return hole;
 }
 
@@ -165,7 +167,8 @@ function toggleVisibility(hole){
 */
 function updateScore() {
   // TODO: Write your code here
-
+  points += 1;
+  score.textContent = points;
   return points;
 }
 
@@ -178,8 +181,8 @@ function updateScore() {
 */
 function clearScore() {
   // TODO: Write your code here
-  // points = 0;
-  // score.textContent = points;
+     points = 0;
+     score.textContent = points;
   return points;
 }
 
@@ -191,7 +194,10 @@ function clearScore() {
 function updateTimer() {
   // TODO: Write your code here.
   // hint: this code is provided to you in the instructions.
-  
+  if (time > 0){
+    time -= 1;
+    timerDisplay.textContent = time;
+  }
   return time;
 }
 
@@ -203,7 +209,7 @@ function updateTimer() {
 */
 function startTimer() {
   // TODO: Write your code here
-  // timer = setInterval(updateTimer, 1000);
+   timer = setInterval(updateTimer, 1000);
   return timer;
 }
 
@@ -217,7 +223,7 @@ function startTimer() {
 */
 function whack(event) {
   // TODO: Write your code here.
-  // call updateScore()
+  updateScore()
   return points;
 }
 
