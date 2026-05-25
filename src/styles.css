@@ -91,7 +91,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  cursor: url('../assets/mallet.png') , pointer;
+  cursor: url('../assets/mallet.png') 10 10, pointer;
 }
 
 .hole {
