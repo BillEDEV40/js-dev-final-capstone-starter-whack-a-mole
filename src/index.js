@@ -247,6 +247,7 @@ function startTimer() {
 * the moles.
 *
 */
+
 function whack(event) {
   // TODO: Write your code here.
   console.log("whack!");
