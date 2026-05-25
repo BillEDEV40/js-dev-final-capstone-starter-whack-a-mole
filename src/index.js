@@ -50,6 +50,23 @@ function randomInteger(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+/* Check if needed before submitting, put in as failed attempt to add difficulty
+function updateDifficulty() {
+  const difficulty = document.getElementById('difficulty').value;
+
+  if (level === "easy") {
+    enemySpeed = 1;
+    playerLives = 5;
+  } else if (level === "medium") {
+    enemySpeed = 2;
+    playerLives = 3;
+  } else if (level === "hard") {
+    enemySpeed = 4;
+    playerLives = 1;
+  }
+}
+  */
+
 /**
  * Sets the time delay given a difficulty parameter.
  *
@@ -317,10 +334,15 @@ function startGame(){
   showUp();
   playAudio(song);
   return "game started";
+  console.log (difficulty);
 }
 
+//Button handlers
 startButton.addEventListener("click", startGame);
 
+easyButton.addEventListener("click", ()=> setDelay('easy'));
+normalButton.addEventListener("click", ()=> setDelay('normal'));
+hardButton.addEventListener("click", ()=> setDelay('hard'));
 
 // Please do not modify the code below.
 // Used for testing purposes.
