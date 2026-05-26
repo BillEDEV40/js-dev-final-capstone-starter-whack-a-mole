@@ -10,6 +10,7 @@ const easyButton = document.querySelector('#easy');
 const normalButton = document.querySelector('#normal');
 const hardButton = document.querySelector('#hard');
 
+// set audio assets
 const audioHit = new Audio("./assets/hit.mp3?raw=true");
 const song = new Audio("./assets/molesong.mp3?raw=true");
 
@@ -17,7 +18,13 @@ let time = 0;
 let timer;
 let lastHole = 0;
 let points = 0;
-let difficulty = "normal";
+let difficulty = "easy"; //default level if no button is selected
+
+//Set Difficulty from buttons
+function setDifficulty(level){
+  difficulty = level
+  console.log (level)
+}
 
 // audio functions
 function playAudio(audioObject) {
@@ -82,6 +89,8 @@ function updateDifficulty() {
  * setDelay("hard") //> returns 856 (returns a random number between 600 and 1200).
  *
  */
+
+
 function setDelay(difficulty) {
   // TODO: Write your code here.
 if (difficulty === "easy") {
@@ -334,15 +343,14 @@ function startGame(){
   showUp();
   playAudio(song);
   return "game started";
-  console.log (difficulty);
 }
 
 //Button handlers
 startButton.addEventListener("click", startGame);
 
-easyButton.addEventListener("click", ()=> setDelay('easy'));
-normalButton.addEventListener("click", ()=> setDelay('normal'));
-hardButton.addEventListener("click", ()=> setDelay('hard'));
+easyButton.addEventListener("click", ()=> setDifficulty("easy"));
+normalButton.addEventListener("click", ()=> setDifficulty("normal"));
+hardButton.addEventListener("click", ()=> setDifficulty("hard"));
 
 // Please do not modify the code below.
 // Used for testing purposes.
