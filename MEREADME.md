@@ -10,7 +10,7 @@ In addition to the funtions used by the project, I added music, a hit sound effe
 
 I also additional buttons that allow for difficulty selection. The Level buttons have different colors and a hover effect which was also applied to the start button. 
 
-![Button Css](.\assets\level_buttoncss.png)
+![Button Css](https://github.com/BillEDEV40/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets%2Flevel_buttonCSS.PNG)
 
 
 ### Implementation
