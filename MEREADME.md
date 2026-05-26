@@ -22,6 +22,6 @@ The biggest challenge to me was getting the difficulty buttons to update correct
 ### GitHub Commit History
 Here is the GitHub commit history
 
-![GitHub_History](.assets\Commits_ScreenShot.png)
+![GitHub_History](.\assets\Commits_ScreenShot.png)
 
 
