@@ -24,4 +24,22 @@ Here is the GitHub commit history
 
 ![GitHub_History](https://github.com/BillEDEV40/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/Commits_ScreenShot.PNG)
 
+### GitHub Replit Screenshots
 
+This screenshot shows
+![Replit_Screen_Shot1](https://github.com/BillEDEV40/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/Replit_screenshot_1.PNG)
+
+This screenshot shows
+![Replit_Screen_Shot2](https://github.com/BillEDEV40/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/Replit_screenshot_2.PNG)
+
+This screenshot shows
+![Replit_Screen_Shot3](https://github.com/BillEDEV40/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/Replit_screenshot_3.PNG)
+
+This screenshot shows
+![Replit_Screen_Shot4](https://github.com/BillEDEV40/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/Replit_screenshot_4.PNG)
+
+This screenshot shows
+![Replit_Screen_Shot5](https://github.com/BillEDEV40/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/Replit_screenshot_5.PNG)
+
+This screenshot shows
+![Replit_Screen_Shot6](https://github.com/BillEDEV40/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/Replit_screenshot_6.PNG)
