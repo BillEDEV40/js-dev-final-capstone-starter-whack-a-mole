@@ -6,7 +6,7 @@ I decided to compelte the Whack-A-Mole project for my capstoned because I found 
 
 ### Functions and Features Choices
 In addition to the funtions used by the project, I added music, a hit sound effect.
-![Music](.assets\audio_difficulty.png)
+![Music](https://github.com/BillEDEV40/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/audio_difficulty.PNG)
 
 I also additional buttons that allow for difficulty selection. The Level buttons have different colors and a hover effect which was also applied to the start button. 
 
@@ -22,6 +22,6 @@ The biggest challenge to me was getting the difficulty buttons to update correct
 ### GitHub Commit History
 Here is the GitHub commit history
 
-![GitHub_History](.\assets\Commits_ScreenShot.png)
+![GitHub_History](https://github.com/BillEDEV40/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/Commits_ScreenShot.PNG)
 
 
