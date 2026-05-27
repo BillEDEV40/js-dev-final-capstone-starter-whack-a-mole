@@ -36,7 +36,7 @@ This screenshot shows the finalized start function as well as the added button h
 ![Replit_Screen_Shot3](https://github.com/BillEDEV40/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/Replit_screenshot_3.PNG)
 
 This screenshot shows some of the css changs made to h2 as well as effects added to the start button.
-![Replit_Screen_Shot4](https://github.comdddddddd/BillEDEV40/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/Replit_screenshot_4.PNG)
+![Replit_Screen_Shot4](https://github.com/BillEDEV40/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/Replit_screenshot_4.PNG)
 
 This screenshot shows the css additons for the level buttons.
 ![Replit_Screen_Shot5](https://github.com/BillEDEV40/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/Replit_screenshot_5.PNG)
