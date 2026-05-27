@@ -57,23 +57,6 @@ function randomInteger(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-/* Check if needed before submitting, put in as failed attempt to add difficulty
-function updateDifficulty() {
-  const difficulty = document.getElementById('difficulty').value;
-
-  if (level === "easy") {
-    enemySpeed = 1;
-    playerLives = 5;
-  } else if (level === "medium") {
-    enemySpeed = 2;
-    playerLives = 3;
-  } else if (level === "hard") {
-    enemySpeed = 4;
-    playerLives = 1;
-  }
-}
-  */
-
 /**
  * Sets the time delay given a difficulty parameter.
  *
@@ -277,7 +260,7 @@ function startTimer() {
 function whack(event) {
   // TODO: Write your code here.
   console.log("whack!");
-  playAudio(audioHit); // Play hit sound on mole click
+  playAudio(audioHit); // Play hit sound on mallet click
   updateScore();
   return points;
 }
