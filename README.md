@@ -26,20 +26,17 @@ Here is the GitHub commit history
 
 ### GitHub Replit Screenshots
 
-This screenshot shows
+This screenshot shows the completed index.html file.
 ![Replit_Screen_Shot1](https://github.com/BillEDEV40/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/Replit_screenshot_1.PNG)
 
-This screenshot shows
+This screenshot shows this shows adding variables for buttons as well as some audio changes.
 ![Replit_Screen_Shot2](https://github.com/BillEDEV40/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/Replit_screenshot_2.PNG)
 
-This screenshot shows
+This screenshot shows the finalized start function as well as the added button handlers for level buttons.
 ![Replit_Screen_Shot3](https://github.com/BillEDEV40/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/Replit_screenshot_3.PNG)
 
-This screenshot shows
-![Replit_Screen_Shot4](https://github.com/BillEDEV40/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/Replit_screenshot_4.PNG)
+This screenshot shows some of the css changs made to h2 as well as effects added to the start button.
+![Replit_Screen_Shot4](https://github.comdddddddd/BillEDEV40/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/Replit_screenshot_4.PNG)
 
-This screenshot shows
+This screenshot shows the css additons for the level buttons.
 ![Replit_Screen_Shot5](https://github.com/BillEDEV40/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/Replit_screenshot_5.PNG)
-
-This screenshot shows
-![Replit_Screen_Shot6](https://github.com/BillEDEV40/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/Replit_screenshot_6.PNG)
